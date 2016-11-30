@@ -1,0 +1,24 @@
+{
+    "name": "donkeysharp/thinghive-core",
+    "description": "Thinghive core elements",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "donkeysharp",
+            "email": "serguimant@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "illuminate/database": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThingHiveCore\\": "src/"
+        }
+    }
+}
