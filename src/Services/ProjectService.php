@@ -8,7 +8,7 @@ use ThingHiveCore\NotFoundException;
 
 class ProjectService extends BaseService
 {
-    protected function __construct(
+    public function __construct(
         ProjectRepository $projectRepo,
         TeamRepository $teamRepo)
     {
